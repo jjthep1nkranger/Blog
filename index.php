@@ -11,7 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "Web server is running locally";
+            require_once (__DIR__ . "/../model/database.php");
+            //links to the create db page for information
         ?>
     </body>
 </html>
