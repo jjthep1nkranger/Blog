@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            require_once (__DIR__ . "/../model/database.php");
+            require_once (__DIR__ . "/controller/create-db.php");
             //links to the create db page for information
         ?>
     </body>
